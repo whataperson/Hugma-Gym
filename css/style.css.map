@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","sources":["style.scss"],"sourcesContent":["p {\r\n    background-color: red;\r\n    &:hover {\r\n        background-color: green;\r\n    }\r\n}"],"names":[],"mappings":"AAAA,AAAA,CAAC,CAAC;EACE,gBAAgB,EAAE,GAAG,GAIxB;EALD,AAEI,CAFH,AAEI,MAAM,CAAC;IACJ,gBAAgB,EAAE,KAAK,GAC1B"}
