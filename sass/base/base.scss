@@ -5,8 +5,13 @@ $body-font-size: 13px;
 $body-line-height: 26px;
 $text-black: #000;
 
-* {
-    box-sizing: border-box;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $body-font;
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+    color: $text-black;
 }
 
 p,
@@ -29,16 +34,8 @@ button {
     line-height: inherit;
 }
 
-body {
-    margin: 0;
-    font-family: $body-font;
-    font-size: $body-font-size;
-    line-height: $body-line-height;
-    color: $text-black;
-}
-
 ul {
-    padding: 0;
+    padding: 0px;
     list-style: none;
 }
   

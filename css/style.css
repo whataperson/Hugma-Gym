@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-* {
-  box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  color: #000; }
 
 p,
 h1,
@@ -20,22 +25,19 @@ button {
   font-size: inherit;
   line-height: inherit; }
 
-body {
-  margin: 0;
-  font-family: "Montserrat", "Roboto", sans-serif;
-  font-size: 13px;
-  line-height: 26px;
-  color: #000; }
-
 ul {
-  padding: 0;
+  padding: 0px;
   list-style: none; }
 
 .page-header {
   background-image: url("../img/header/background-image.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: repeat;
   background-size: cover;
-  height: 100vh; }
+  margin: 0;
+  padding: 0; }
+
+.main-nav__list {
+  display: flex; }
 
 /*# sourceMappingURL=style.css.map */
